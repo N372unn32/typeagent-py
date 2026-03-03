@@ -14,6 +14,7 @@ format: venv
 .PHONY: check
 check: venv
 	.venv/bin/pyright --pythonpath .venv/bin/python src tests tools examples
+security test
 
 .PHONY: test
 test: venv
